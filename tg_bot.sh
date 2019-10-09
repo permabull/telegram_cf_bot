@@ -27,7 +27,7 @@ function giveflip() {
 
 while [ true ]
 do
-  #giveflip
+  giveflip
 
   telegram-cli -W -e "msg lntxbot /balance"
   sleep 2s
